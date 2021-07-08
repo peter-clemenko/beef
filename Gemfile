@@ -10,7 +10,7 @@ gem 'eventmachine'
 gem 'thin'
 gem 'sinatra'
 gem 'rack'
-gem 'em-websocket', '~> 0.3.6' # WebSocket support
+gem 'em-websocket', '~> 0.3.8' # WebSocket support
 gem 'uglifier', '~> 2.2.1'
 gem 'mime-types'
 
@@ -29,15 +29,15 @@ end
 
 gem 'ansi'
 gem 'term-ansicolor', :require => 'term/ansicolor'
-gem 'dm-core'
+gem 'dm-core', '>= 1.2.1'
 gem 'json'
-gem 'data_objects'
-gem 'dm-sqlite-adapter'  # SQLite support
+gem 'data_objects', '>= 0.10.14'
+gem 'dm-sqlite-adapter'  , '>= 1.2.0' # SQLite support
 #gem dm-postgres-adapter # PostgreSQL support
 #gem dm-mysql-adapter    # MySQL support
 gem 'parseconfig'
 gem 'erubis'
-gem 'dm-migrations'
+gem 'dm-migrations', '>= 1.2.0'
 gem 'msfrpc-client'        # Metasploit Integration extension
 #gem 'twitter', '>= 5.0.0' # Twitter Notifications extension
 gem 'rubyzip', '>= 1.0.0'
